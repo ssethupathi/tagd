@@ -1,0 +1,15 @@
+.tag-message {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.tag-message:not(:first-child) {
+  border-top: 1px solid #e7e7e7;
+}
+.tag-message-details {
+  margin-left: 10px;
+}
+.tag-profile-image {
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+}

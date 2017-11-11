@@ -2,16 +2,16 @@
   'use strict';
 
   angular
-    .module('chat.routes')
+    .module('tag.routes')
     .config(routeConfig);
 
   routeConfig.$inject = ['$stateProvider'];
 
   function routeConfig($stateProvider) {
     $stateProvider
-      .state('find', {
-        url: '/find',
-        templateUrl: '/modules/chat/client/views/chat.client.view.html',
+      .state('tag', {
+        url: '/tag',
+        templateUrl: '/modules/tag/client/views/tag.client.view.html',
         controller: 'ChatController',
         controllerAs: 'vm',
         data: {
